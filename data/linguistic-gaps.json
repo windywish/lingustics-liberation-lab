@@ -1,0 +1,208 @@
+{
+  "gaps": [
+    {
+      "id": "gap-1",
+      "name": "Subject-Object Separation",
+      "description": "Language structures that force a distinction between perceiver and perceived, preventing expression of non-dual states of awareness.",
+      "examples": [
+        "I see the tree",
+        "She experienced the sensation",
+        "They observed the phenomenon"
+      ],
+      "limitedConcepts": [
+        "Non-dual awareness",
+        "Unified perception fields",
+        "Observer-observed simultaneity"
+      ],
+      "alternatives": [
+        "Awareness-as-tree arising",
+        "Sensation-experience unfolding",
+        "Observation-phenomenon occurring"
+      ]
+    },
+    {
+      "id": "gap-2",
+      "name": "Linear Temporality",
+      "description": "Grammatical structures that enforce sequential time relationships, preventing expression of non-linear temporal experiences.",
+      "examples": [
+        "Before attending the meeting, she prepared notes",
+        "After the storm, the sky cleared",
+        "While eating, he read the newspaper"
+      ],
+      "limitedConcepts": [
+        "Temporal superposition",
+        "Past-future simultaneity",
+        "Non-sequential causation"
+      ],
+      "alternatives": [
+        "Meeting-preparation timescape",
+        "Storm-clearing temporal mesh",
+        "Eating-reading temporal field"
+      ]
+    },
+    {
+      "id": "gap-3",
+      "name": "Unidirectional Causality",
+      "description": "Linguistic patterns that enforce one-way cause-effect relationships, limiting expression of mutual or circular causation.",
+      "examples": [
+        "The heat caused the water to boil",
+        "Her decision led to significant changes",
+        "Studying resulted in better grades"
+      ],
+      "limitedConcepts": [
+        "Bidirectional causation",
+        "Circular causal networks",
+        "Mutual emergence"
+      ],
+      "alternatives": [
+        "Heat-boiling co-emergence",
+        "Decision-change mutual arising",
+        "Study-grades causal field"
+      ]
+    },
+    {
+      "id": "gap-4",
+      "name": "Binary Logic",
+      "description": "Logical structures that enforce true/false distinctions, preventing expression of multi-valued logical states.",
+      "examples": [
+        "Either it's raining or it's not raining",
+        "The statement is either true or false",
+        "You're either with us or against us"
+      ],
+      "limitedConcepts": [
+        "Quantum superposition of truth values",
+        "Spectral logical states",
+        "Multi-valued truth conditions"
+      ],
+      "alternatives": [
+        "Rain-conditions spectrum manifesting",
+        "Truth-value field expressing",
+        "Alignment spectrum occurring"
+      ]
+    },
+    {
+      "id": "gap-5",
+      "name": "Single Perspective",
+      "description": "Narrative structures that enforce a single point of view, limiting expression of multi-perspective awareness.",
+      "examples": [
+        "From my perspective, the policy is flawed",
+        "In her view, the situation was improving",
+        "I believe this approach is correct"
+      ],
+      "limitedConcepts": [
+        "Omniperspectival awareness",
+        "Viewpoint integration",
+        "Perspective-invariant truth"
+      ],
+      "alternatives": [
+        "Policy reveals multi-dimensional assessment",
+        "Situation expresses integrated viewpoint field",
+        "Approach manifests perspective-transcendent evaluation"
+      ]
+    },
+    {
+      "id": "gap-6",
+      "name": "Entity Persistence",
+      "description": "Language structures that enforce stable identities across time, limiting expression of processual reality.",
+      "examples": [
+        "The tree grew taller",
+        "She changed her mind",
+        "The organization evolved over time"
+      ],
+      "limitedConcepts": [
+        "Process-based identity",
+        "Non-persistent entities",
+        "Continuous transformation"
+      ],
+      "alternatives": [
+        "Tree-process height-shifting",
+        "Mind-process redirecting",
+        "Organization-becoming manifestation"
+      ]
+    },
+    {
+      "id": "gap-7",
+      "name": "Spatial Containment",
+      "description": "Conceptual structures that enforce clear boundaries between inside and outside, limiting expression of interpenetration.",
+      "examples": [
+        "The book is in the box",
+        "She entered the room",
+        "Ideas within the framework"
+      ],
+      "limitedConcepts": [
+        "Mutual containment",
+        "Boundary transcendence",
+        "Inter-penetration"
+      ],
+      "alternatives": [
+        "Book-box co-location field",
+        "Room-person interpenetration",
+        "Ideas-framework co-manifestation"
+      ]
+    },
+    {
+      "id": "gap-8",
+      "name": "Property Attribution",
+      "description": "Linguistic patterns that enforce properties as belonging to substances, limiting expression of relationality.",
+      "examples": [
+        "The ball is red",
+        "He is intelligent",
+        "The material is flexible"
+      ],
+      "limitedConcepts": [
+        "Contextual properties",
+        "Relational attributes",
+        "Field-dependent qualities"
+      ],
+      "alternatives": [
+        "Ball-observer-light red-manifesting",
+        "Intelligence-context-person expressing",
+        "Material-interaction flexibility-field"
+      ]
+    },
+    {
+      "id": "gap-9",
+      "name": "Intentional Agency",
+      "description": "Grammatical structures that enforce clear agent-action relationships, limiting expression of distributed causation.",
+      "examples": [
+        "She solved the problem",
+        "They built the structure",
+        "He made a decision"
+      ],
+      "limitedConcepts": [
+        "Distributed agency",
+        "Field-based causation",
+        "Non-agentive emergence"
+      ],
+      "alternatives": [
+        "Problem-person solution-field manifestation",
+        "Structure-builders emergence process",
+        "Decision-context-person manifold"
+      ]
+    },
+    {
+      "id": "gap-10",
+      "name": "Emotional Categorization",
+      "description": "Lexical limitations that enforce discrete emotion categories, limiting expression of emotional complexity.",
+      "examples": [
+        "She felt happy",
+        "He was angry",
+        "They experienced grief"
+      ],
+      "limitedConcepts": [
+        "Emotional spectra",
+        "Category-transcendent feelings",
+        "Integrated affect states"
+      ],
+      "alternatives": [
+        "Joy-spectrum emotional field expressing",
+        "Anger-adjacent affect manifesting",
+        "Grief-constellation embodied experiencing"
+      ]
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "lastUpdated": "2023-04-15"
+  }
+}

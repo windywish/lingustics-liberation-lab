@@ -1,0 +1,429 @@
+/* Concept Laboratory Styles */
+.tool-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tool-controls {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.tool-controls select {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: var(--border-radius);
+    background-color: var(--surface-color);
+}
+
+.canvas-container {
+    position: relative;
+    height: 200px;
+    background-color: #f7fafc;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.interactive-canvas {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder-instructions {
+    text-align: center;
+    color: var(--text-light);
+    max-width: 80%;
+}
+
+.tool-palette {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tool-item {
+    padding: 0.5rem 0.75rem;
+    background-color: var(--surface-color);
+    border: 1px solid #e2e8f0;
+    border-radius: var(--border-radius);
+    cursor: grab;
+    user-select: none;
+    font-size: 0.875rem;
+    transition: all var(--transition-speed);
+}
+
+.tool-item:hover {
+    background-color: #f7fafc;
+    border-color: var(--primary-color);
+}
+
+.tool-item.active {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.concept-output {
+    background-color: var(--surface-color);
+    border: 1px solid #e2e8f0;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+}
+
+.discovery-list {
+    min-height: 100px;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
+
+.concept-item {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+    cursor: pointer;
+    transition: background-color var(--transition-speed);
+}
+
+.concept-item:last-child {
+    border-bottom: none;
+}
+
+.concept-item:hover {
+    background-color: #f7fafc;
+}
+
+.concept-item .concept-name {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.concept-item .concept-description {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.concept-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-top: 0.5rem;
+}
+
+.concept-tag {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    background-color: #e2e8f0;
+    color: var(--text-secondary);
+}
+
+.action-bar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+/* Visualization Section Styles */
+.visualizer-controls {
+    margin-bottom: 1rem;
+}
+
+.visual-canvas {
+    height: 250px;
+    background-color: #f7fafc;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.concept-selection {
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #e2e8f0;
+    border-radius: var(--border-radius);
+}
+
+.concept-check-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.concept-check-item:last-child {
+    border-bottom: none;
+}
+
+.concept-check-item input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+/* Community Section Styles */
+.community-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background-color: #f7fafc;
+    border-radius: var(--border-radius);
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-item span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.stat-item label {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.concept-feed {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #e2e8f0;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+.feed-concept {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.feed-concept:last-child {
+    border-bottom: none;
+}
+
+.feed-concept .concept-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+}
+
+.feed-concept .concept-author {
+    font-size: 0.75rem;
+    color: var(--text-light);
+}
+
+.feed-concept .concept-name {
+    font-weight: 500;
+}
+
+.feed-concept .concept-description {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.collaboration-workspace {
+    border: 1px solid #e2e8f0;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.session-area {
+    height: 150px;
+    padding: 1rem;
+    background-color: #f7fafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.session-controls {
+    display: flex;
+    padding: 0.75rem;
+    border-top: 1px solid #e2e8f0;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+.placeholder-text {
+    color: var(--text-light);
+    text-align: center;
+}
+
+/* Applications Section Styles */
+.application-areas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.area-card {
+    background-color: var(--surface-color);
+    border: 1px solid #e2e8f0;
+    border-radius: var(--border-radius);
+    padding: 0.75rem;
+    cursor: pointer;
+    transition: all var(--transition-speed);
+}
+
+.area-card:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.area-card h3 {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}
+
+.area-card p {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.concept-count {
+    font-size: 0.75rem;
+    color: var(--text-light);
+}
+
+.application-workspace {
+    border: 1px solid #e2e8f0;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.problem-area {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.problem-area textarea {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #e2e8f0;
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
+    font-family: var(--font-main);
+    font-size: 0.875rem;
+    resize: none;
+}
+
+.application-area {
+    padding: 0.75rem;
+}
+
+.concept-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.concept-pill {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    background-color: #e2e8f0;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all var(--transition-speed);
+}
+
+.concept-pill:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.concept-pill.selected {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.solution-area {
+    min-height: 100px;
+    background-color: #f7fafc;
+    border-radius: var(--border-radius);
+    padding: 0.75rem;
+}
+
+/* Component Tags */
+.component-tags, .limitation-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.component-tag, .limitation-tag {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background-color: #f0f7ff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 16px;
+    font-size: 0.75rem;
+}
+
+.limitation-tag {
+    background-color: #fff0f7;
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+/* Draggable element styles */
+.concept-element {
+    position: absolute;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--border-radius);
+    cursor: move;
+    user-select: none;
+    font-size: 0.875rem;
+    z-index: 10;
+    box-shadow: var(--shadow-sm);
+}
+
+.entity-element {
+    background-color: #ebf8ff;
+    border: 1px solid #4299e1;
+}
+
+.relation-element {
+    background-color: #faf5ff;
+    border: 1px solid #9f7aea;
+}
+
+.property-element {
+    background-color: #e6fffa;
+    border: 1px solid #38b2ac;
+}
+
+.process-element {
+    background-color: #fffaf0;
+    border: 1px solid #ed8936;
+}
+
+.context-element {
+    background-color: #f0fff4;
+    border: 1px solid #48bb78;
+}
+
+.connection-line {
+    position: absolute;
+    z-index: 5;
+    pointer-events: none;
+}
